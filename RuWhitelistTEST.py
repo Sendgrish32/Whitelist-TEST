@@ -115,7 +115,6 @@ def main():
     
     print(f"\n🔍 ВЕРДИКТ:")
     
-    # Если разрешённые работают, а запрещённые НЕ работают - белые списки активны
     if results["allowed"]["ok"] == results["allowed"]["total"] and results["blocked"]["blocked"] == results["blocked"]["total"]:
         print("  ❌ БЕЛЫЕ СПИСКИ, СКОРЕЕ ВСЕГО, АКТИВНЫ")
         print("  Доступны только разрешённые сайты (Яндекс, ВК, MAX, Госуслуги)")
@@ -139,7 +138,6 @@ def main():
     print("=" * 70)
 
 if __name__ == "__main__":
-    # Отключаем предупреждения о SSL (для чистоты вывода)
     import urllib3
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     
