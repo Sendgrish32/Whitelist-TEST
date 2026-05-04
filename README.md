@@ -1,6 +1,7 @@
 # Белые списки РФ | Whitelists RF
-
-## |-----------------------------------------RU-----------------------------------------|
+<p align="center">
+## |——————————RU——————————|
+</p>
 Этот скрипт проверяет доступность разных сайтов и 
 приходит к выводу, работают ли на вашей сети 
 российские белые списки или нет. Скрипт полностью 
@@ -10,8 +11,9 @@ requests. Ее можно скачать этой командой:
 ```shell
 pip install requests
 ```
-
-## |-----------------------------------------EN-----------------------------------------|
+<p align = "center">
+## |——————————EN——————————|
+</p>
 This script checks the availability of different
 sites and concludes whether they work on your 
 network Russian whitelists or not. Complete script 
